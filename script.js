@@ -11,6 +11,7 @@ for(let x = 0; x < num; x++){
     container.appendChild(row);
 }
 
-// <!-- .grid divs change color when mouse passes over them, leaving a pixelated trail through your grid -->
-
+container.addEventListener("mouseover",(e) => {
+    e.target.style.backgroundColor = "black";
+})
 
