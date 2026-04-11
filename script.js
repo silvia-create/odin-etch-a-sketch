@@ -17,7 +17,7 @@ container.addEventListener("mouseover",(e) => {
 
 const btn = document.querySelector("button");
 btn.addEventListener("click",() => {
-    userInput = prompt("enter a number between 1 and 100:",4);
+    let userInput = prompt("enter a number between 1 and 100:",4);
     if (userInput >=1 && userInput <= 100){
         while (container.firstChild){
             container.removeChild(container.firstChild);
@@ -33,7 +33,7 @@ btn.addEventListener("click",() => {
             container.appendChild(row);
         }
     } else {
-        alert("plese enter a valid number.");
+        alert("please enter a valid number.");
     }
     
 })
