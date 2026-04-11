@@ -1,7 +1,15 @@
-plan:
-.create a board of 16*16 grid of square divs
-.grid divs change color when mouse passes over them, leaving a pixelated trail through your grid
-.add a button for users to enter a number to generate a new sketch pad
-***
-.randomize the squares color with each touch
-.color only darkens 10% each time, it'll be completely colored when 10th time hits
+# Etch-A-Sketch
+
+A browser-based sketching board built with JavaScript, HTML5, and CSS3. This project is part of the Foundations course at [The Odin Project](https://www.theodinproject.com/).
+
+## 🚀 Features
+* **Dynamic Grid Generation**: Users can set the grid size (from 1 to 100) via a button prompt.
+* **Rainbow Mode**: Each square changes to a random RGB color upon mouse hover, creating a vibrant sketching experience.
+
+## 🛠️ Tech Stack
+* **HTML5**
+* **CSS3** (Flexbox)
+* **JavaScript** (DOM Manipulation, Event Delegation)
+
+## 💡 What I Learned
+During this project, I strengthened my understanding of the **DOM**, specifically how to dynamically create elements and handle events efficiently using **Event Delegation**. I also practiced **Git branch management** to experiment with different features.
