@@ -12,7 +12,10 @@ for(let x = 0; x < num; x++){
 }
 
 container.addEventListener("mouseover",(e) => {
-    e.target.style.backgroundColor = "black";
+    const r = Math.floor(Math.random()*256);
+    const g = Math.floor(Math.random()*256);
+    const b = Math.floor(Math.random()*256);
+    e.target.style.backgroundColor = `rgb(${r},${g},${b})`;
 })
 
 const btn = document.querySelector("button");
